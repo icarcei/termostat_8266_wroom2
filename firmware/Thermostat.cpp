@@ -17,9 +17,9 @@ Thermostat::Thermostat(char* mac)
           strcpy(name_of_dev, "IoT SUN Thermostat");
           strcpy(http_username, "admin");
           strcpy(http_password, "admin");
-          strcpy(bonjourserver, "89.121.205.44");
-          bonjourport          = 50000;
-          strcpy(emails, "icarcei@gmail.com");
+          strcpy(bonjourserver, "888.888.255.255");
+          bonjourport          = 555555;
+          strcpy(emails, "gmail@gmail.com");
           //strcpy(key, "cheiedeaccessthermos");
 
           LoadState();
