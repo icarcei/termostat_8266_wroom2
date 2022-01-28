@@ -38,8 +38,8 @@ public class Thermo implements Serializable {
     private String      http_username="";
     private String      http_password="";
     private String      emails="";
-    private String      bonjourserver="89.121.205.44";
-    private int         bonjourport=50000;
+    private String      bonjourserver="ip.of.your.bonjour.server";
+    private int         bonjourport=55555;
     private int         defaultsensor=1;
     private float       defaultvalue=22.0f;
     private int         timeZone=2;
