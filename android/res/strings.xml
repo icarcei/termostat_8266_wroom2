@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Thermostat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SUN Thermostat</string>
+    <string name="nav_header_subtitle">thermostat@sun.ro</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="radioSensors">Radio Sensors</string>
+    <string name="wiredSensors">Wired Sensors</string>
+    <string name="programs">Programs</string>
+    <string name="alarms">Alarms</string>
+    <string name="no_name">No Name</string>
+    <string name="action_off">Power Off</string>
+    <string name="action_manual">Manual</string>
+    <string name="action_forced">Force</string>
+    <string name="action_auto">Auto</string>
+    <string name="set_state">Set new State</string>
+
+    <string name="title_activity_fullscreen">SUN Thermostat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">SUN\nThermostat\n loading \n %1$d %%</string>
+    <string name="unknow_location">Unknow Location</string>
+    <string name="communication_problem">Communication problem</string>
+    <string name="check_thermostat">Communicaytion with Thermosta has failed. Check Thermostat, WiFi...</string>
+    <string name="OK">OK</string>
+    <string name="manual_on_this_sensor">Manual on this Sensor</string>
+    <string name="forced_on_this_sensor">Forced on this Sensor</string>
+    <string name="power_off_on_this_sensor">Power Off on this sensor</string>
+    <string name="rename">Rename</string>
+    <string name="change">Edit</string>
+    <string name="add_sensor">Add sensor</string>
+    <string name="remove">Remove</string>
+    <string name="change_name_of_sensor">Change name of sensor</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning">WARNING!</string>
+    <string name="areyoushoreremovesensor">Are you sure you want to remove this sensor?</string>
+    <string name="id_of_sensor">Id of sensor</string>
+    <string name="name_of_sensor_or_location">Name of sensor or location</string>
+    <string name="add">Add</string>
+    <string name="ok">OK</string>
+    <string name="id_of_sensor_is_incorect">ID of sensor is incorect.</string>
+    <string name="unknow">Unknow</string>
+    <string name="sensor_allready">A sensor with this id already exists in the list</string>
+    <string name="save">Save</string>
+    <string name="find_the_thermostat_ip">Find the thermostat ip</string>
+    <string name="mac_incorect">The MAC address is incorect or does not match the SUN thermostats.</string>
+    <string name="the_thermostat_is_in_initial_state_nset_wifi_parameters">The Thermostat is in initial state(new)\nSet WiFi parameters</string>
+    <string name="wifi_ssid">SSID of WiFi network</string>
+    <string name="password">SSID Password</string>
+    <string name="for_success_hint">
+        For success:\n
+        Device must be in Discovery mode\n
+        \t   (the blue led flashes at about 2 seconds)\n
+        \t- if is new or if enroled WiFi is not present\n
+        \t- another way is to press reset button from inside\n
+        WiFi must be activated and\n
+        Mobile Data Dezactivated (only for discovery)</string>
+    <string name="findandset"><![CDATA[Find & Set Device]]></string>
+    <string name="name">Name:</string>
+    <string name="wifiDisabled">WiFi is Disabled</string>
+    <string name="notConnectedWifi">Not connected to WiFi network</string>
+    <string name="failedWifiManager">WiFi doesn\'t answer</string>
+    <string name="failedSubnetHosts">Error on finding Subnets</string>
+    <string name="hostScan">Scanning For Devices</string>
+    <string name="subnetHosts">%1$d locations in your subnet</string>
+    <string name="scannerrezult">Scanner result</string>
+    <string name="devicenotfoud">Device NOT found.</string>
+    <string name="devicefoundataddress">Device was found at address:</string>
+    <string name="nametosmall">Name length for thermostat is to small.</string>
+    <string name="email_address">Change emails</string>
+    <string name="foundAddresWrong">The thermostat has been found but the mac address does not match.\n
+        Please check the thermostat address and save it.</string>
+    <string name="findedOK">The thermostat was found and properly set.</string>
+    <string name="notfinded">The thermostat was not found.\nEnsure that the termostat is in discovery mode.</string>
+    <string name="title_activity_programs">Programs</string>
+    <string name="saturday_and_sunday_weekends">Saturday and Sunday weekends.</string>
+    <string name="sunday_is_weekend">Sunday is weekend</string>
+    <string name="without_weekend">Without a weekend</string>
+    <string name="time">Time:</string>
+    <string name="start" translatable="false">Start </string>
+    <string name="chosesensor">Select a sensor.</string>
+    <string name="choosevalue">Choose a value :</string>
+    <string name="choosetemp">Choose Temperature</string>
+    <string name="weekend_programs">Weekend Programs</string>
+    <string name="week_programs">Week Programs</string>
+    <string name="minimal" translatable="false">Minimal</string>
+    <string name="maximal" translatable="false">Maximal</string>
+    <string name="message">Message</string>
+    <string name="activation_value">Activation value: %1$.1f \u2103</string>
+    <string name="repeat_at">Repeat at: %1$d min</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="email_exp">If you have more, then end with SEMICOLON \';\' or SPACE or both every email</string>
+    <string name="emailchange">Email Change</string>
+    <string name="server_port" translatable="false">Server Port</string>
+    <string name="server_address" translatable="false">Server Address</string>
+    <string name="check_the_clock">Check the clock</string>
+    <string name="choosealarmmessage">Choose alarm message!</string>
+    <string name="therdoesntanswer">The thermostat does not respond(or the communication is defective).\n Do you want to open the application with the latest recordings?</string>
+    <string name="alarmrepeatinterval">Alarm Repeat Interval</string>
+    <string name="alarmrepeatmessageexplain">Change system alarms repeat interval. Value of 0 equals NO Repeat.</string>
+    <string name="repeat_interval">Repeat Interval</string>
+    <string name="already_requested_time">Already requested the time.</string>
+    <string name="chech_time_of_device">Check the time of device</string>
+    <string name="timemessage">Current time:\n %1$s,\nTimeZone %2$d, SaveDayLight %3$s</string>
+    <string name="yes"> Yes</string>
+    <string name="no">No</string>
+    <string name="phoneclocktoThermostat">Send Phone clock to Thermostat</string>
+    <string name="change_time">New time</string>
+    <string name="setTimeZone" translatable="false">Set TimeZone</string>
+    <string name="savedaylight" translatable="false">Save DayLight?</string>
+    <string name="title_activity_select">Thermostats List</string>
+    <string name="another_thermostat">Manage Thermostats</string>
+    <string name="add_thermostat">Add Thermostat</string>
+    <string name="remove_Thermostat">Delete Thermostat</string>
+    <string name="selectThermostat">Select Thermostat</string>
+    <string name="open_thermostat">Open Thermostat</string>
+    <string name="areyoushoreallthedatawillbedeleted">Are you shure? All the data from this thermostat will be deleted!</string>
+    <string name="switchlocal">use local</string>
+    <string name="open"> open %1$s machine</string>
+    <string name="externalshowvalue">External\n%1$.1f°</string>
+</resources>
