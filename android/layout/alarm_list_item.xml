@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinnerASensorUsed"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:prompt="@string/chosesensor"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlarmRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_semibold"
+        android:text="Repeat at : 15 min"
+        android:textColor="@color/md_black_1000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/switchenable"
+        app:layout_constraintTop_toTopOf="@+id/switchtype" />
+
+    <Switch
+        android:id="@+id/switchtype"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="right"
+        android:showText="false"
+        android:splitTrack="false"
+        android:text="@string/minimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchenable" />
+
+    <Switch
+        android:id="@+id/switchenable"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="right"
+        android:showText="false"
+        android:splitTrack="false"
+        android:text="@string/enabled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlarmValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_semibold"
+        android:text="Activation value : 25.5\u2103"
+        android:textColor="@color/md_black_1000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/switchenable"
+        app:layout_constraintTop_toTopOf="@+id/switchenable" />
+
+    <ImageView
+        android:id="@+id/imageViewStatusAlarm"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/magenta" />
+
+    <TextView
+        android:id="@+id/textViewTitleMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchtype" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fadeScrollbars="true"
+        android:fontFamily="@font/dosis_semibold"
+        android:scrollbars="vertical"
+        android:text="TextView\nhgh"
+        android:textColor="@color/md_black_1000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleMessage" />
+
+</android.support.constraint.ConstraintLayout>
