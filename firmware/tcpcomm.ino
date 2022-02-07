@@ -5,8 +5,8 @@
 
 
 
-char tcpserver[50]   = "89.121.205.44";//"carcei.go.ro";
-unsigned int tcpport = 50002;//55000;
+char tcpserver[50]   = "your.ip.address";
+unsigned int tcpport = 55555;
 
 unsigned long lastconntry;
 unsigned long lastupdate;
